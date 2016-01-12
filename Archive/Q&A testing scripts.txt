@@ -1,0 +1,92 @@
+Q/A TESTing LIST and LEGEND:
+
+
+Test 1 accessing index.php page directly
+Test 2 accessing Request_Builder.php directly
+Test 3 accessing GetGrade_Class.php directly
+Test 4 accessing getGrade.php directly
+
+
+TEST 5
+test with correct wsdl URL
+test with correct key
+test with correct username
+test with correct lan
+test with correct level
+
+TEST 6
+test with incorrect wsdl URL
+test with correct key
+test with correct username
+test with correct lan
+test with correct level
+
+TEST 7
+test with blank value for wsdl URL
+test with correct key
+test with correct username
+test with correct lan
+test with correct level
+
+TEST 8
+test with disable wsdl URL
+test with correct key
+test with correct username
+test with correct lan
+test with correct level
+
+TEST 9
+test with correct wsdl URL
+test with incorrect key
+test with correct username
+test with correct lan
+test with correct level
+
+TEST 10
+test with correct wsdl URL
+test with blank value key
+test with correct username
+test with correct lan
+test with correct level
+
+TEST 11
+test with correct wsdl URL
+test with correct key
+test with correct username
+test with incorrect lan
+test with correct level
+
+TEST 12
+test with correct wsdl URL
+test with correct key
+test with correct username
+test with blank value lan
+test with correct level
+
+TEST 13
+test with correct wsdl URL
+test with correct key
+test with correct username
+test with correct lan
+test with incorrect level
+
+TEST 14
+test with correct wsdl URL
+test with correct key
+test with correct username
+test with correct lan
+test with blank value level
+
+TEST 15
+test with correct wsdl URL
+test with correct key
+test with incorrect username
+test with correct lan
+test with correct level
+
+TEST 16
+test with correct wsdl URL
+test with correct key
+test with blank value username
+test with correct lan
+test with correct level

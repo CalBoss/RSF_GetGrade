@@ -1,0 +1,155 @@
+php Web Tool deployed in:
+(RST Intranet only Access)
+
+http://techsoltesting/WSDLSoap/testing/Foundations/GetGrade/
+
+Test results per each browser:
+
+Used Default variables:
+https://redilumnocdei.rosettastoneclassroom.com/rsm_service/users/wsdl
+https://redilumnocdei.rosettastoneclassroom.com/rsm_service/users/wsdlwrong
+https://wrong.rosettastoneclassroom.com/rsm_service/users/wsdl
+https://ivic.rosettastoneclassroom.com/rsm_service/users/wsdl
+
+5c9d5ec4-a444-46b2-a465-dd1ad32a49ce
+5c9d5ec4-a444-46b2-a465-dd1ad32a49ces
+
+SIGLO21_GFERNANDEZ7_ENG
+SIGLO21_GFERNANDEZ7_ENGs
+
+ENG
+ENGS
+123
+POR
+
+1
+2
+6
+A
+
+
+Pass/Fail --> Win 7 /chrome v43.0.2311.135 m
+Pass/Fail --> Win 7 /FireFox 38.0.1
+Pass/Fail --> Win 7/IE 11.0.9431.0
+Pass/Fail --> OS X10.10.3 /chrome Version 42.0.2311.135 (64-bit)
+Pass/Fail --> OS X10.10.3 /FireFox 38.0.1
+Pass/Fail --> OS X10.10.3/Safari 8.0.6 (10600.6.3)
+
+
+Expanded result info:
+
+Win 7 /chrome v43.0.2311.135 m
+	Test 01 results ==> pass
+	Test 02 results ==> pass
+	Test 03 results ==> pass
+	Test 04 results ==> pass
+	Test 05 results ==> pass
+	Test 06 results ==> pass | SOAP-ERROR
+	Test 07 results ==> pass | Access Denied | MIssing parameters
+	Test 08 results ==> pass | not_authorized | Expected 101 error
+	Test 09 results ==> pass | not_authorized | Expected 101 error | Please enter a valid API key
+	Test 10 results ==> pass | Access Denied | MIssing parameters
+	Test 11 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 12 results ==> pass | Access Denied | MIssing parameters 
+	Test 13 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 14 results ==> pass | Access Denied | MIssing parameters
+	Test 15 results ==> pass | invalid_resource (201 Error)
+	Test 16 results ==> pass | Access Denied | MIssing parameters
+
+Win 7 /FireFox 38.0.1
+	Test 01 results ==> pass
+	Test 02 results ==> pass
+	Test 03 results ==> pass
+	Test 04 results ==> pass
+	Test 05 results ==> pass
+	Test 06 results ==> pass | SOAP-ERROR
+	Test 07 results ==> pass | Access Denied | MIssing parameters
+	Test 08 results ==> pass | not_authorized | Expected 101 error
+	Test 09 results ==> pass | not_authorized | Expected 101 error | Please enter a valid API key
+	Test 10 results ==> pass | Access Denied | MIssing parameters
+	Test 11 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 12 results ==> pass | Access Denied | MIssing parameters
+	Test 13 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 14 results ==> pass | Access Denied | MIssing parameters
+	Test 15 results ==> pass | invalid_resource (201 Error)
+	Test 16 results ==> pass | Access Denied | MIssing parameters
+
+Win 7/IE 11.0.9431.0
+	Test 01 results ==> pass
+	Test 02 results ==> pass
+	Test 03 results ==> pass
+	Test 04 results ==> pass
+	Test 05 results ==> pass
+	Test 06 results ==> pass | SOAP-ERROR
+	Test 07 results ==> pass | Access Denied | MIssing parameters
+	Test 08 results ==> pass | not_authorized | Expected 101 error
+	Test 09 results ==> pass | not_authorized | Expected 101 error | Please enter a valid API key
+	Test 10 results ==> pass | Access Denied | MIssing parameters
+	Test 11 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 12 results ==> pass | Access Denied | MIssing parameters
+	Test 13 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 14 results ==> pass | Access Denied | MIssing parameters
+	Test 15 results ==> pass | invalid_resource (201 Error)
+	Test 16 results ==> pass | Access Denied | MIssing parameters
+
+OS X10.10.3 /chrome Version 42.0.2311.135 (64-bit)
+	Test 01 results ==> pass
+	Test 02 results ==> pass
+	Test 03 results ==> pass
+	Test 04 results ==> pass
+	Test 05 results ==> pass
+	Test 06 results ==> pass | SOAP-ERROR
+	Test 07 results ==> pass | Access Denied | MIssing parameters
+	Test 08 results ==> pass | not_authorized | Expected 101 error
+	Test 09 results ==> pass | not_authorized | Expected 101 error | Please enter a valid API key
+	Test 10 results ==> pass | Access Denied | MIssing parameters
+	Test 11 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 12 results ==> pass | Access Denied | MIssing parameters
+	Test 13 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 14 results ==> pass | Access Denied | MIssing parameters
+	Test 15 results ==> pass | invalid_resource (201 Error)
+	Test 16 results ==> pass | Access Denied | MIssing parameters
+
+OS X10.10.3 /FireFox 38.0.1
+	Test 01 results ==> pass
+	Test 02 results ==> pass
+	Test 03 results ==> pass
+	Test 04 results ==> pass
+	Test 05 results ==> pass
+	Test 06 results ==> pass | SOAP-ERROR
+	Test 07 results ==> pass | Access Denied | MIssing parameters
+	Test 08 results ==> pass | not_authorized | Expected 101 error
+	Test 09 results ==> pass | not_authorized | Expected 101 error | Please enter a valid API key
+	Test 10 results ==> pass | Access Denied | MIssing parameters
+	Test 11 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 12 results ==> pass | Access Denied | MIssing parameters
+	Test 13 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 14 results ==> pass | Access Denied | MIssing parameters
+	Test 15 results ==> pass | invalid_resource (201 Error)
+	Test 16 results ==> pass | Access Denied | MIssing parameters
+
+OS X10.10.3/Safari 8.0.6 (10600.6.3)
+	Test 01 results ==> pass
+	Test 02 results ==> pass
+	Test 03 results ==> pass
+	Test 04 results ==> pass
+	Test 05 results ==> pass
+	Test 06 results ==> pass | SOAP-ERROR
+	Test 07 results ==> pass | Access Denied | MIssing parameters
+	Test 08 results ==> pass | not_authorized | Expected 101 error
+	Test 09 results ==> pass | not_authorized | Expected 101 error | Please enter a valid API key
+	Test 10 results ==> pass | Access Denied | MIssing parameters
+	Test 11 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 12 results ==> pass | Access Denied | MIssing parameters
+	Test 13 results ==> pass | invalid_resource (201 Error) | malformed_argument (603 Error)
+	Test 14 results ==> pass | Access Denied | MIssing parameters
+	Test 15 results ==> pass | invalid_resource (201 Error)
+	Test 16 results ==> pass | Access Denied | MIssing parameters
+
+
+
+
+
+
+
+
